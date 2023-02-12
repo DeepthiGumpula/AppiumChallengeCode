@@ -41,6 +41,7 @@ pip install behave
 #### How to run this script
 Note : Please change device/ emulator config in behave.ini before running the script.
 First download image from email and save it as test.png (Note : for now its hardcoded in the script)
+Note : Here downloaded image in project is test.png (FYI)
 
 ./run.sh
 

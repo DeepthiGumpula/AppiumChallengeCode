@@ -1,0 +1,6 @@
+allure-behave
+allure-python-commons
+Appium-Python-Client
+behave
+
+

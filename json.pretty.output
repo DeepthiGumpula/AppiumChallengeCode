@@ -1,0 +1,135 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/GoogleAppPhotoUpload.feature:4",
+      "name": "Send email attaching photo from Google photos",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/GoogleAppPhotoUpload.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/steps.py:14"
+          },
+          "name": "the google photos app is launched",
+          "result": {
+            "duration": 7.154723882675171,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/GoogleAppPhotoUpload.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/steps.py:24"
+          },
+          "name": "I upload photo to the app",
+          "result": {
+            "duration": 20.11708641052246,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/GoogleAppPhotoUpload.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/steps.py:29"
+          },
+          "name": "I verify the photo is uploaded",
+          "result": {
+            "duration": 0.5855190753936768,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "features/GoogleAppPhotoUpload.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/steps.py:42"
+          },
+          "name": "I tap the photo in the app",
+          "result": {
+            "duration": 4.1848227977752686,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/GoogleAppPhotoUpload.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/steps.py:34"
+          },
+          "name": "I verify the image name",
+          "result": {
+            "duration": 8.365884780883789,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "features/GoogleAppPhotoUpload.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/steps.py:48"
+          },
+          "name": "I launch the Gmail app",
+          "result": {
+            "duration": 29.80843687057495,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/GoogleAppPhotoUpload.feature:11",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/steps.py:53"
+          },
+          "name": "I signin into gmail account",
+          "result": {
+            "duration": 28.898919820785522,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/GoogleAppPhotoUpload.feature:12",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/steps.py:58"
+          },
+          "name": "I send email attaching the photo uploaded earlier",
+          "result": {
+            "duration": 43.28217911720276,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/GoogleAppPhotoUpload.feature:2",
+  "name": "Upload Appium challenge photo via appium to android and send to email as attachment.",
+  "status": "passed",
+  "tags": [
+    "Android"
+  ]
+}
+]

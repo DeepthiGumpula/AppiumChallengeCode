@@ -39,6 +39,7 @@ appium-doctor (Check appium environment)
 pip install behave
 
 #### How to run this script
+Note : Please change device/ emulator config in behave.ini before running the script.
 First download image from email and save it as test.png (Note : for now its hardcoded in the script)
 
 ./run.sh
